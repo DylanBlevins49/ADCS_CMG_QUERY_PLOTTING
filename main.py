@@ -35,12 +35,13 @@ lines, labels = ax1.get_legend_handles_labels()
 plt.title('Wheel Speed Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('wheel_speed_vs_time_1_0.png', dpi=300, bbox_inches='tight')
 
 
 
 
 #################################################################################################################
-#########################################  WHEEL ACCELERATION VS POWER ##########################################
+#########################################  WHEEL ACCELERATION VS TIME ##########################################
 #################################################################################################################
 # Plot Wheel Acceleration over time
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -63,7 +64,7 @@ lines, labels = ax1.get_legend_handles_labels()
 plt.title('Wheel Acceleration Over Time')
 plt.tight_layout()
 plt.show()
-
+fig.savefig('acceleration_vs_time_1_0.png', dpi=300, bbox_inches='tight')
 
 
 
@@ -96,7 +97,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Speed & Acceleration Over Time')
 plt.tight_layout()
 plt.show()
-
+fig.savefig('wheel_speed_vs_acceleration_vs_time_1_0.png', dpi=300, bbox_inches='tight')
 
 
 
@@ -129,6 +130,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Speed & 3.3V Current Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('wheel_speed_vs_3v3_A_1_0.png', dpi=300, bbox_inches='tight')
 #################################################################################################################
 #Plot Wheel Speed vs 5v Current over time
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -156,6 +158,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Speed & 5V Current Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('wheel_speed_vs_5v_A_1_0.png', dpi=300, bbox_inches='tight')
 #################################################################################################################
 #Plot Wheel speed vs 3.3v voltage over time
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -183,6 +186,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Speed & 3.3v Voltage Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('wheel_speed_vs_3v3_V_1_0.png', dpi=300, bbox_inches='tight')
 #################################################################################################################
 #Plot Wheel speed vs 5v voltage over time
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -210,7 +214,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Speed & 3.3v Voltage Over Time')
 plt.tight_layout()
 plt.show()
-
+fig.savefig('wheel_speed_vs_5v_V_1_0.png', dpi=300, bbox_inches='tight')
 
 
 
@@ -243,6 +247,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Acceleration & 3.3V Current Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('acceleration_vs_3v3_A_1_0.png', dpi=300, bbox_inches='tight')
 #################################################################################################################
 #Plot Wheel Acceleration Speed vs 5v Current over time
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -270,6 +275,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Acceleration & 5V Current Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('acceleration_vs_5v_A_1_0.png', dpi=300, bbox_inches='tight')
 #################################################################################################################
 #Plot Wheel Acceleration vs 3.3v voltage over time
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -297,6 +303,7 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Acceleration & 3.3v Voltage Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('acceleration_vs_3v3_V_1_0.png', dpi=300, bbox_inches='tight')
 #################################################################################################################
 #Plot Wheel Acceleration vs 5v voltage over time
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -324,3 +331,4 @@ ax1.legend(lines + l2, labels + l2lab, loc='upper left')
 plt.title('Wheel Acceleration & 3.3v Voltage Over Time')
 plt.tight_layout()
 plt.show()
+fig.savefig('acceleration_vs_5v_V_1_0.png', dpi=300, bbox_inches='tight')
